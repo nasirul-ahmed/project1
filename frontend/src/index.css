@@ -1,0 +1,125 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navBar {
+    height: 70px;
+    max-height: 80px;
+}
+
+.vertical-nav {
+    min-width: 60px;
+    width: 60px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0px;
+   
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.side-menu{
+    visibility:visible;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+hr{
+    margin: 0;
+}
+
+.icons{
+    height: 40px;
+    width: 40px;
+}
+
+.notices{
+    max-height: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   border-radius: 10px;
+   box-shadow: 1px 3px 21px -9px rgba(0,0,0,0.9);
+   -webkit-box-shadow: 1px 3px 21px -9px rgba(0,0,0,0.9);
+   -moz-box-shadow: 1px 3px 21px -9px rgba(0,0,0,0.9);
+}
+.notice{
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.notice-venue{
+    padding: 5px;
+    background-color: rgb(73, 73, 249);
+    border-radius: 25px;
+    text-align: center;
+}
+.calender-div{
+    border-radius: 10px;
+    box-shadow: 1px 3px 21px -9px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 1px 3px 21px -9px rgba(0,0,0,0.9);
+    -moz-box-shadow: 1px 3px 21px -9px rgba(0,0,0,0.9);
+
+}
+.calender{
+    border: none;
+}
+.calender-day{
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.carousalss{
+    border-radius: 10px;
+    box-shadow: 1px 3px 21px -9px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 1px 3px 21px -9px rgba(0,0,0,0.9);
+    -moz-box-shadow: 1px 3px 21px -9px rgba(0,0,0,0.9);
+}
+
+.arrow {
+    border: none;
+    position: relative;
+    background: white;
+    
+}
+
+.ecard-cntent{
+    display: flex;
+    position:absolute;
+    z-index: 1;
+    bottom: 25px;
+    flex-direction: row;
+    
+    
+}
+
+.main-cont{
+    margin-left: 50px
+}
+
+@media only screen and (max-width: 602px) {
+   .side-menu{
+       visibility: hidden;
+       overflow: hidden;
+   } 
+   .main-cont{
+       margin: 10px;
+   }
+}
